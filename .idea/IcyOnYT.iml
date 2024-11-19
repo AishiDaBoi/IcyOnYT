@@ -4,5 +4,14 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="e99732694a" level="application" />
+    <orderEntry type="library" name="animate.css" level="application" />
+    <orderEntry type="library" name="jquery.easings" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="jquery.fullPage" level="application" />
+    <orderEntry type="library" name="jquery.mb.YTPlayer" level="application" />
+    <orderEntry type="library" name="modernizr.custom" level="application" />
+    <orderEntry type="library" name="style" level="application" />
+    <orderEntry type="library" name="main-youtube" level="application" />
   </component>
 </module>

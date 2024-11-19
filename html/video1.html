@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="eng" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>Icy</title>
+    <meta name="description" content="this is about icy" />
+    <meta property="og:title" content="icy" />
+    <meta property="og:description" content="this is about icy" />
+    <meta property="theme-color" content="" />
+    <meta property="og:image" content="https://monarchmail.xyz/proxy?url=" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://api.monarchupload.cc/css/style.css" />
+    <link rel="icon" type="image/png" href="https://api.monarchupload.cc/img/favicon.png" />
+    <script src="https://api.monarchupload.cc/js/modernizr.custom.js"></script>
+    <script src="https://kit.fontawesome.com/e99732694a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="loading">
+    <div class="loader"><span class="dots"> .</span><span class="dots"> .</span><span class="dots"> .</span><span class="dots"> .</span><span class="dots"> .</span><span class="dots"> .</span>
+        <p class="loader__label">Icy&#39;s and Thuni&#39;s Bio | <span data-words="Loading|Please Wait|Lädt|ERROR|加载中|Virus"></span></p>
+    </div>
+</div><button id="small-screen-menu"><span class="custom-menu"></span></button>
+<div class="slideshow"></div><a id="bgndVideo" class="player"></a>
+
+
+
+<footer>
+<div id="fullpage">
+        <div class="col-12 col-xl-4 footer-nav">
+            <ul class="on-right">
+                <li class="player-command"><a onclick="$('#bgndVideo').playYTP()"><i class="fas fa-play"></i></a></li>
+                <li class="player-command"><a onclick="$('#bgndVideo').pauseYTP()"><i class="fas fa-pause"></i></a></li>
+                <li class="player-command"><a onclick="$('#bgndVideo').YTPUnmute()"><i class="fas fa-volume-high"></i></a></li>
+                <li class="player-command"><a onclick="$('#bgndVideo').YTPFullscreen()"><i class="fas fa-expand"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="https://api.monarchupload.cc/js/jquery.min.js"></script>
+<script src="https://api.monarchupload.cc/js/jquery.easings.min.js"></script>
+<script src="https://api.monarchupload.cc/js/bootstrap.min.js"></script>
+<script src="https://api.monarchupload.cc/js/jquery.fullPage.js"></script>
+<script src="https://api.monarchupload.cc/js/jquery.mb.YTPlayer.js"></script>
+<script>
+    // Array mit YouTube-Video-URLs
+    var videoURLs = [
+       "https://www.youtube.com/watch?v=2UDqhZCNgms"
+    ];
+
+    // Zufällige Video-URL auswählen
+    var randomVideoURL = videoURLs[Math.floor(Math.random() * videoURLs.length)];
+
+    // Element mit der ID "bgndVideo" auswählen und Datenattribute aktualisieren
+    var bgndVideo = document.getElementById("bgndVideo");
+    bgndVideo.setAttribute("data-property", "{videoURL:'" + randomVideoURL + "',containment:'body',autoPlay:true, repeat:true, mute:true, startAt:0, stopAt:0, opacity:1}");
+</script>
+<script src="https://api.monarchupload.cc/js/main-youtube.js"></script>
+
+</body>
+
+</html>

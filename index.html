@@ -1,13 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="description" content="A modern, animated web experience" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css/animate.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <script src="https://kit.fontawesome.com/e99732694a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
 
-<h1>Willkommen!</h1>
+<!-- Navigation -->
+<header>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="../IcyOnYT/index.html">Home</a></li>
+            <li><a href="/html/aboutUs.html">About</a></li>
+            <li><a href="/html/allvideos.html">Gallery</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+            <li><a id="darkModeToggle" href="#">Dark Mode</a></li>
+        </ul>
+    </nav>
+</header>
 
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+    <h1 class="hero-title animate__animated animate__fadeInDown">Welcome to Icy's World 🌍</h1>
+    <p class="hero-subtitle animate__animated animate__fadeInUp">Explore. Dream. Discover.</p>
+    <button class="btn btn-primary" onclick="scrollToSection('#about')">Learn More</button>
+</section>
+
+<!-- About Section -->
+<section id="about" class="content-section">
+    <h2 class="animate__animated animate__fadeInUp">About Us</h2>
+    <p class="animate__animated animate__fadeInUp">Welcome to Icy's and Thuni's digital space. Here you can explore cool content and learn more about our projects.</p>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="content-section">
+    <h2 class="animate__animated animate__fadeInUp">Popular Videos</h2>
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <a href="html/video1.html">
+                <img src="img/gallery1.png" alt="Eye of the Tiger Slowed" title="Eye of the Tiger Slowed" class="animate__animated animate__fadeInUp">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="html/video2.html">
+                <img src="img/gallery2.png" alt="Gallery Image 2" class="animate__animated animate__fadeInUp">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="html/video3.html">
+                <img src="img/gallery3.png" alt="Gallery Image 3" class="animate__animated animate__fadeInUp">
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="content-section">
+    <h2 class="animate__animated animate__fadeInUp">Contact Us</h2>
+    <p class="animate__animated animate__fadeInUp">Discord: IcyOnDC#4940 and ThuniOnCRXCK</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 Icy and Thuni | All Rights Reserved</p>
+</footer>
 </body>
+
 </html>
